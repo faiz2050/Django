@@ -1,0 +1,21 @@
+#First- Install python higher than 3.4 version
+#Second- Install pip in the command prompt(cmd)
+#open the cmd--press window+r then write the below commands
+
+python --version   # To check version of the python
+python -m pip install --upgrade pip   #command to upgrade python if needed
+pip --version    #command to check version of pip
+pip install django    # To install django
+django-admin --version     #checking the version of django
+
+#CREATING THE VIRTUAL ENVIRONMENT FOR PROJECTS
+pip install virtualenvwrapper-win
+
+#To create the folder
+mkdir project_name
+
+# To start the project in django
+django-admin startproject project_name
+
+#To start the server wheather the project is working or not.Copy the url then paste it in the browser 
+python manage.py runserver
